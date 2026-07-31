@@ -3,7 +3,7 @@
 int localShift(int x, int n) {
     
     x >>= n;
-    int mask = (  ~(1 << 31)  >> n) << 1;
+    int mask = ~((  (1 << 31)  >> n) << 1);
     return x & mask;
     
 
