@@ -1,5 +1,5 @@
 import java.util.Random;
-public class Q10 {
+public class Q26 {
     static Random random = new Random();
     static void generateArray(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
